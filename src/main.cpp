@@ -19,7 +19,7 @@ float H2, LPG, CO, Alcohol, Propane, Benzene;
 void onRequestEvent();
 void sendData(float f);
 
-RF24 radio(7, 8); // CE, CSN
+RF24 radio(10, 9); // CE, CSN
 const byte address[6] = "00001";
 
 
